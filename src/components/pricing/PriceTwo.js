@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-import SectionTitle from '../common/SectionTitle';
-import { FaCheckCircle } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import SectionTitle from "../common/SectionTitle";
+import { FaCheckCircle } from "react-icons/fa";
 
 const PriceTwo = () => {
   return (
@@ -15,11 +15,9 @@ const PriceTwo = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-12">
             <SectionTitle
-              subtitle="Plans &amp; Pricing"
-              title="Check Our Valuable Price"
-              description="Objectively market-driven intellectual capital rather than
-                  covalent best practices facilitate strategic information
-                  before innovation."
+              subtitle="Ücretlendirmeler"
+              title="Tek fiyat yok, tek fiyat var!"
+              description="Başka e-ticaret sağlayıcları gibi kafa karıştırıcı paketlerimiz yok. İhtiyacın olan paketi müşteri temsilcin ile kararlaştırıp istediğin modül eğer paket dışıysa sadece kullanacağın modülü satın alarak AgeSoft ekosistemine dahil olabilirsin."
               dark
               centerAlign
             />
@@ -35,39 +33,39 @@ const PriceTwo = () => {
                 >
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Unlimited domains
+                    Content Delivery Network ( CDN)
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Unlimited notifications
+                    İndirimli Kargo Anlaşmaları
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    10,000 unique visitors
+                    Kolay Sayfa Tasarım Sihirbazı
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Conversion analytics
+                    Gelişmiş Seo Yönetim Modülü
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Conversion analytics
+                    Gelişmiş Kampanya Yönetim Modülü
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Live chat support
+                    İçerik Yönetimi
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Recent activity notification
+                    İstatistik ve Raporlama
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Live visitor count notification
+                    Hediye Çeki / Puan Sistemi
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Send data href analytics tools
+                    Kargo Fişi Yazdırma Modülü
                   </li>
                 </ul>
               </div>
@@ -91,7 +89,7 @@ const PriceTwo = () => {
                       aria-controls="pills-home"
                       aria-selected="true"
                     >
-                      Monthly
+                      Aylık
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
@@ -105,7 +103,7 @@ const PriceTwo = () => {
                       aria-selected="false"
                       className=""
                     >
-                      Yearly
+                      Yıllık
                     </button>
                   </li>
                 </ul>
@@ -116,20 +114,17 @@ const PriceTwo = () => {
                     role="tabpanel"
                     aria-labelledby="pills-home-tab"
                   >
-                    <h3 className="h5">Pro Monthly</h3>
+                    <h3 className="h5">Age+ Aylık</h3>
                     <p>
-                      Professionally integrate principle-centered intellectual
-                      capital whereas equity.
+                      Kullanmak istediğin paketi aylık olarak satın alabilirsin
                     </p>
                     <div className="pricing-price mt-5">
                       <h4 className="h1 fw-bold">
-                        $49 <span>/Month</span>
+                        36₺ <span>/Günlük</span>
                       </h4>
                     </div>
                     <Link href="/request-demo">
-                      <a className="btn btn-primary mt-3">
-                        Start 14-Days Trial
-                      </a>
+                      <a className="btn btn-primary mt-3">Detaylı Bilgi</a>
                     </Link>
                   </div>
                   <div
@@ -138,20 +133,15 @@ const PriceTwo = () => {
                     role="tabpanel"
                     aria-labelledby="pills-profile-tab"
                   >
-                    <h3 className="h5">Pro Yearly</h3>
-                    <p>
-                      Uniquely engineer prospective alignments without
-                      clicks-and-mortar innovation.
-                    </p>
+                    <h3 className="h5">Age+ Yıllık</h3>
+                    <p>Paketini yıllık alıp daha düşük ücret ödeyebilirsin.</p>
                     <div className="pricing-price mt-5">
                       <h4 className="h1 fw-bold">
-                        $89 <span>/Year</span>
+                        27.5₺ <span>/Günlük</span>
                       </h4>
                     </div>
                     <Link href="/request-demo">
-                      <a className="btn btn-primary mt-3">
-                        Start 14-Days Trial
-                      </a>
+                      <a className="btn btn-primary mt-3">Detaylı Bilgi</a>
                     </Link>
                   </div>
                 </div>
