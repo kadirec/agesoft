@@ -12,7 +12,7 @@ const FooterShort = () => {
             <div className="col-md-7 col-lg-7">
               <div className="copyright-text">
                 <p className="mb-lg-0 mb-md-0">
-                  &copy; 2015-2022 AgeSoft 
+                  &copy; 2015-2022 AgeSoft
 
                 </p>
               </div>
