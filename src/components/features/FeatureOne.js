@@ -1,10 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
-import SectionTitle from '../common/SectionTitle';
-import { RiStackLine } from 'react-icons/ri';
-import { BsCodeSlash, BsShieldCheck } from 'react-icons/bs';
+import SectionTitle from "../common/SectionTitle";
+import { RiStackLine } from "react-icons/ri";
+import { BsCodeSlash, BsShieldCheck } from "react-icons/bs";
 
 const FeatureOne = () => {
   return (
@@ -21,24 +21,22 @@ const FeatureOne = () => {
             </div>
           </div>
 
-
           <div className="row">
-
-
             <div className="col-lg-6 mt-4">
               <div className="position-relative d-flex flex-column h-100 flex-wrap bg-danger-soft p-5 rounded-custom">
                 <div className="cta-left-info mb-2">
                   <h5> Yeni Nesil E-ticaret Yazılımı</h5>
                   <p>
-                    Progressively reinvent models and niche revolutionary
-                    benefits for integrated niches.{' '}
+                    E-ticaret yapmak için yazılımınızın yüksek performanslı ve
+                    kullanım kolaylığı sağlayan bir yazılım olması size artı
+                    katar.
                   </p>
                 </div>
 
                 <div className="action-btns mt-auto">
                   <Link href="/request-demo">
                     <a className="btn btn-outline-primary btn-sm">
-                      {' '}
+                      {" "}
                       Hemen Görüntüle
                     </a>
                   </Link>
@@ -53,18 +51,16 @@ const FeatureOne = () => {
                     className="img-fluid"
                   />
                 </div>
-
               </div>
             </div>
-
 
             <div className="col-lg-6 mt-4">
               <div className="position-relative d-flex flex-column h-100 flex-wrap bg-primary-soft p-5 rounded-custom">
                 <div className="cta-left-info mb-2">
                   <h5>Pazaryerleri Entegrasyonu</h5>
                   <p>
-                    Progressively reinvent models and niche revolutionary
-                    benefits for integrated niches.{' '}
+                    Yüksek trafikli tüm pazaryerlerine ürünlerinizi yüklemek
+                    için <strong>aracı bir yazılıma</strong> ihtiyacınız yok.
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
@@ -87,14 +83,13 @@ const FeatureOne = () => {
               </div>
             </div>
 
-
             <div className="col-lg-6 mt-4">
               <div className="position-relative d-flex flex-column h-100 flex-wrap bg-primary-soft p-5 rounded-custom">
                 <div className="cta-left-info mb-2">
                   <h5>Hızlı ve SEO Dostu</h5>
                   <p>
-                    Progressively reinvent models and niche revolutionary
-                    benefits for integrated niches.{' '}
+                    Arama motorlarında öne çıkma ve reklam harcalarımızı
+                    düşürmek için yapıldı.
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
@@ -106,32 +101,30 @@ const FeatureOne = () => {
                 </div>
                 <div className="cta-img position-absolute right-0 bottom-0">
                   <Image
-                      width={223}
-                      height={223}
-                      layout="responsive"
-                      src="/cta-img-2.png"
-                      alt="cta img"
-                      className="img-fluid"
+                    width={223}
+                    height={223}
+                    layout="responsive"
+                    src="/cta-img-2.png"
+                    alt="cta img"
+                    className="img-fluid"
                   />
                 </div>
               </div>
             </div>
-
 
             <div className="col-lg-6 mt-4">
               <div className="position-relative d-flex flex-column h-100 flex-wrap bg-danger-soft p-5 rounded-custom">
                 <div className="cta-left-info mb-2">
                   <h5>7/24 Kesintisiz Destek</h5>
                   <p>
-                    Progressively reinvent models and niche revolutionary
-                    benefits for integrated niches.{' '}
+                    Destek sistemimiz yaşacağınız en ufak sorunda 7/24
+                    yanınızda.
                   </p>
                 </div>
 
                 <div className="action-btns mt-auto">
                   <Link href="/request-demo">
                     <a className="btn btn-outline-primary btn-sm">
-                      {' '}
                       Hemen Görüntüle
                     </a>
                   </Link>
@@ -139,19 +132,15 @@ const FeatureOne = () => {
 
                 <div className="cta-img position-absolute right-0 bottom-0">
                   <Image
-                      width={223}
-                      height={223}
-                      src="/cta-img-1.png"
-                      alt="cta"
-                      className="img-fluid"
+                    width={223}
+                    height={223}
+                    src="/cta-img-1.png"
+                    alt="cta"
+                    className="img-fluid"
                   />
                 </div>
-
               </div>
             </div>
-
-
-
           </div>
         </div>
       </section>

@@ -1,22 +1,27 @@
-import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { HiMenu, HiOutlineX } from 'react-icons/hi';
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { HiMenu, HiOutlineX } from "react-icons/hi";
 
-import OffCanvasMenu from './OffCanvasMenu';
-import { navHomeOne, navHomeTwo, navCompanyLinks, navCompanyPage } from '../../utils/data';
-import dynamic from 'next/dynamic';
+import OffCanvasMenu from "./OffCanvasMenu";
+import {
+  navHomeOne,
+  navHomeTwo,
+  navCompanyLinks,
+  navCompanyPage,
+} from "../../utils/data";
+import dynamic from "next/dynamic";
 
 const Navbar = ({ navDark }) => {
   const [scroll, setScroll] = useState(0);
   const [headerTop, setHeaderTop] = useState(0);
 
   useEffect(() => {
-    const stickyheader = document.querySelector('.main-header');
+    const stickyheader = document.querySelector(".main-header");
     setHeaderTop(stickyheader.offsetTop);
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -24,21 +29,23 @@ const Navbar = ({ navDark }) => {
     setScroll(window.scrollY);
   };
 
+  const [open, setOpen] = React.useState(false);
+
   return (
     <header
-      className={`main-header ${navDark ? 'position-absolute' : ''} w-100 `}
+      className={`main-header ${navDark ? "position-absolute" : ""} w-100 `}
     >
       <nav
         className={`navbar navbar-expand-xl ${
-          navDark ? 'navbar-dark' : 'navbar-light'
-        } sticky-header ${scroll > headerTop ? 'affix' : ''}`}
+          navDark ? "navbar-dark" : "navbar-light"
+        } sticky-header ${scroll > headerTop ? "affix" : ""}`}
       >
         <div className="container d-flex align-items-center justify-content-lg-between position-relative">
           <Link href="/">
             <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
               {scroll > headerTop || !navDark ? (
                 <Image
-                  width={210 }
+                  width={210}
                   height={61}
                   src="/agesoft-logo-color.png"
                   alt="logo"
@@ -72,8 +79,13 @@ const Navbar = ({ navDark }) => {
           <div className="collapse navbar-collapse justify-content-center">
             <ul className="nav col-12 col-md-auto justify-content-center main-menu">
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                   aria-expanded="false">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Kurumsal
                 </a>
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
@@ -100,8 +112,13 @@ const Navbar = ({ navDark }) => {
                 </div>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                   aria-expanded="false">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Yazılım Özellikleri
                 </a>
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
@@ -109,7 +126,7 @@ const Navbar = ({ navDark }) => {
                     <div className="dropdown-grid-item">
                       <h6 className="drop-heading">Different Home</h6>
                       {navHomeOne.map((navH, i) => (
-                          <span key={i + 1}>
+                        <span key={i + 1}>
                           <Link href={navH.href}>
                             <a className="dropdown-link">
                               <span className="demo-list bg-primary rounded text-white fw-bold">
@@ -139,7 +156,6 @@ const Navbar = ({ navDark }) => {
                 </Link>
               </li>
 
-
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -159,7 +175,9 @@ const Navbar = ({ navDark }) => {
                           <Link href={navLink.href}>
                             <a className="dropdown-link px-0">
                               <i className="me-1">{navLink.icon}</i>
-                              <span className="drop-title mb-0">{navLink.title} </span>
+                              <span className="drop-title mb-0">
+                                {navLink.title}{" "}
+                              </span>
                             </a>
                           </Link>
                         </div>
@@ -172,7 +190,9 @@ const Navbar = ({ navDark }) => {
                           <Link href={navPage.href}>
                             <a className="dropdown-link">
                               <i className="me-1">{navPage.icon}</i>
-                              <span className="drop-title mb-0">{navPage.title} </span>
+                              <span className="drop-title mb-0">
+                                {navPage.title}{" "}
+                              </span>
                             </a>
                           </Link>
                         </div>
@@ -185,7 +205,6 @@ const Navbar = ({ navDark }) => {
           </div>
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-
             <Link href="request-demo">
               <a className="btn btn-primary">Demo Talebi</a>
             </Link>
@@ -226,4 +245,4 @@ const Navbar = ({ navDark }) => {
   );
 };
 
-export default dynamic(() => Promise.resolve(Navbar), {ssr : false});
+export default dynamic(() => Promise.resolve(Navbar), { ssr: false });

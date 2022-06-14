@@ -4984,3 +4984,17 @@ li.setup-process-item:not(:last-child):before {
   line-height: normal;
   font-size: 16px;
 }
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.btn-color-white {
+  color: #fff;
+  border: 1px solid transparent;
+}
+.btn-color-white:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
