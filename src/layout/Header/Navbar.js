@@ -40,7 +40,7 @@ const Navbar = ({ navDark }) => {
                 <Image
                   width={210 }
                   height={61}
-                  src="/logo-color.png"
+                  src="/agesoft-logo-color.png"
                   alt="logo"
                   className="img-fluid logo-color"
                 />
@@ -196,8 +196,8 @@ const Navbar = ({ navDark }) => {
                   <Image
                     width={121}
                     height={36}
-                    src="/logo-color.png"
-                    alt="logo"
+                    src="/agesoft-logo-color.png"
+                    alt="Agesoft Logo"
                     className="img-fluid ps-2"
                   />
                 </a>

@@ -151,7 +151,7 @@ const Register = () => {
                     className="mb-5 d-block d-xl-none d-lg-none"
                   >
                     <img
-                      src="/logo-color.png"
+                      src="/agesoft-logo-color.png"
                       alt="logo"
                       className="img-fluid"
                     />

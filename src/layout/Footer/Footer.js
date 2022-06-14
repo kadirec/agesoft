@@ -30,7 +30,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       <Image
                         width={113}
                         height={36}
-                        src="/logo-color.png"
+                        src="/agesoft-logo-color.png"
                         alt="logo"
                         className="img-fluid logo-white"
                       />
