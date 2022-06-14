@@ -18,7 +18,7 @@ const ServiceForm = () => {
       message,
     };
 
-    fetch("/api/api", {
+    fetch("api/api", {
       method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
@@ -26,9 +26,9 @@ const ServiceForm = () => {
       },
       body: JSON.stringify(data),
     }).then((res) => {
-      console.log("Response received");
+      console.log("İstek alındı");
       if (res.status === 200) {
-        console.log("Response succeeded!");
+        console.log("İstek tamamlandı!");
         setSubmitted(true);
         setName("");
         setEmail("");
