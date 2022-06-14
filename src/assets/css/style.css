@@ -4998,3 +4998,6 @@ li.setup-process-item:not(:last-child):before {
   border: 1px solid #fff;
   color: #fff;
 }
+.fs-10{
+  font-size: 12px
+}

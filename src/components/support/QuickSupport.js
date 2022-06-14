@@ -1,9 +1,9 @@
-import React from 'react';
-import Link from 'next/link';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { BiCommentDetail } from 'react-icons/bi';
-import SectionTitle from '../common/SectionTitle';
-import ServiceForm from '../services/ServiceForm';
+import React from "react";
+import Link from "next/link";
+import { FaPhoneAlt } from "react-icons/fa";
+import { BiCommentDetail } from "react-icons/bi";
+import SectionTitle from "../common/SectionTitle";
+import ServiceForm from "../services/ServiceForm";
 
 const QuickSupport = () => {
   return (
@@ -12,10 +12,9 @@ const QuickSupport = () => {
         <div className="row justify-content-between">
           <div className="col-xl-5 col-lg-5 col-md-12">
             <SectionTitle
-              subtitle="Quick Support"
-              title="Get in Touch Today!"
-              description=" Proactively deliver seamless core competencies with
-                    scalable. Completely fabricate transparent paradigms."
+              subtitle="Hızlı iletişim"
+              title="Bize ulaşın"
+              description="Agesoft ayrıcalıklarından faydalanmak ve bizimle beraber e-ticaretinizi kolayca büyütmek için dilediğin zaman bizimle iletişime geçebilirsin"
             />
             <div className="row justify-content-between pb-5">
               <div
@@ -29,9 +28,11 @@ const QuickSupport = () => {
                   </span>
                 </div>
                 <div className="contact-info">
-                  <h5>Call Us</h5>
+                  <h5>Bizi Ara!</h5>
                   <p>
-                    Questions about our product or pricing? Call for support
+                    Ekibimizi dilediğin zaman arayıp{" "}
+                    <strong>"Yeni Nesil E-Ticaret" </strong>
+                    hakkında bilgi alabilirsin.
                   </p>
                   <a
                     href="tel:(415)231-59687"
@@ -39,8 +40,8 @@ const QuickSupport = () => {
                   >
                     <span className="far me-2">
                       <FaPhoneAlt className="mb-1" />
-                    </span>{' '}
-                    (415)231-59687
+                    </span>{" "}
+                    0850 532 29 27
                   </a>
                 </div>
               </div>
@@ -51,17 +52,19 @@ const QuickSupport = () => {
                   </span>
                 </div>
                 <div className="contact-info">
-                  <h5>Chat Us</h5>
+                  <h5>E-Posta gönder</h5>
                   <p>
-                    Our support will help you from
-                    <strong> 9am to 5pm EST.</strong>
+                    Ekibimiz
+                    <strong> 9.00 - 18.00 </strong> arasında telefonlara cevap
+                    verecektir. Eğer mesai saatleri dışında bilgi almak istersen
+                    e-posta ile bize ulaşabilirsin.
                   </p>
-                  <Link href="/contact-us">
+                  <Link href="mailto:info@agesoft.com.tr">
                     <a className="read-more-link text-decoration-none">
                       <span className="far me-2">
                         <BiCommentDetail className="mb-1" />
-                      </span>{' '}
-                      Live Chat Now
+                      </span>{" "}
+                      info@agesoft.com.tr
                     </a>
                   </Link>
                 </div>

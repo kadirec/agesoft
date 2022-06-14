@@ -1,15 +1,15 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
-import Rating from '../common/Rating';
-import VideoModal from '../common/VideoModal';
-import { testimonialAuthor, testimonialOne } from '../../utils/data';
+import Rating from "../common/Rating";
+import VideoModal from "../common/VideoModal";
+import { testimonialAuthor, testimonialOne } from "../../utils/data";
 
 const TestimonialOne = ({ darkBg }) => {
   return (
     <section
       className={`customer-review-tab ptb-120 ${
-        darkBg ? 'bg-gradient text-white' : 'bg-light'
+        darkBg ? "bg-gradient text-white" : "bg-light"
       } position-relative z-2`}
     >
       <div className="container">
@@ -72,10 +72,6 @@ const TestimonialOne = ({ darkBg }) => {
                             className="img-fluid rounded-custom shadow-lg"
                             alt="testimonial author"
                           />
-                          <div className="customer-info text-white d-flex align-items-center">
-                            <VideoModal />
-                          </div>
-                          <div className="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
                         </div>
                       </div>
                     </div>
