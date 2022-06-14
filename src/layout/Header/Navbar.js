@@ -133,6 +133,12 @@ const Navbar = ({ navDark }) => {
                 </Link>
               </li>
 
+              <li>
+                <Link href="services">
+                  <a className="nav-link">Referanslar</a>
+                </Link>
+              </li>
+
 
               <li className="nav-item dropdown">
                 <a
