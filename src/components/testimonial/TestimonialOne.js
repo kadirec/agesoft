@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 import Rating from "../common/Rating";
-import VideoModal from "../common/VideoModal";
 import { testimonialAuthor, testimonialOne } from "../../utils/data";
 
 const TestimonialOne = ({ darkBg }) => {
