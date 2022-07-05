@@ -1,24 +1,18 @@
-import React from 'react';
-import Image from 'next/image';
-import { FaBezierCurve } from 'react-icons/fa';
-import { FiTruck } from 'react-icons/fi';
-import { RiNodeTree } from 'react-icons/ri';
-import { GrResources } from 'react-icons/gr';
+import React from "react";
+import Image from "next/image";
+import { FaBezierCurve } from "react-icons/fa";
+import { FiTruck } from "react-icons/fi";
+import { RiNodeTree } from "react-icons/ri";
+import { GrResources } from "react-icons/gr";
 
 const WorkProcessOne = () => {
   return (
     <section className="work-process ptb-120">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-10">
+          <div className="col-lg-6 col-md-10 mb-5">
             <div className="section-heading text-center">
-              <h4 className="h5 text-primary">Process</h4>
-              <h2>We Follow Our Work Process</h2>
-              <p>
-                Enthusiastically engage cross-media leadership skills for
-                alternative experiences. Proactively drive vertical systems than
-                intuitive architectures.
-              </p>
+              <h2>Nasıl AgeSoft ailesine katılabilirsin?</h2>
             </div>
           </div>
         </div>
@@ -43,28 +37,28 @@ const WorkProcessOne = () => {
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 1</span>
-                  <h3 className="h5 mb-2">Research and Content Planing</h3>
+                  <span className="text-primary h6">Adım 1</span>
+                  <h3 className="h5 mb-2">Bizimle iletişime geç</h3>
                   <p>
-                    Progressively foster enterprise-wide systems whereas equity
-                    invested web-readiness harness installed base bandwidth.
+                    Sana özel olarak atanan müşteri temsilcin ile projenin
+                    başından sonuna kadar çalışırsın. İhtiyacın olan tüm
+                    detayları size iletilecek.
                   </p>
                 </div>
               </li>
               <li className="d-flex align-items-start mb-4">
                 <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
                   <i className="far fa-3x">
-                    {' '}
                     <FaBezierCurve />
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 2</span>
-                  <h3 className="h5 mb-2">Publishing and Execution</h3>
+                  <span className="text-primary h6">Adım 2</span>
+                  <h3 className="h5 mb-2">Sistemi tanıtma</h3>
                   <p>
-                    Dramatically administrate progressive metrics without
-                    error-free globally simplify standardized alignments
-                    plagiarize distributed.
+                    İhtiyacın olan zamanlarda AgeSoft'un deneyimli ekibiyle
+                    toplantı yapabilir, sistemin işleyişini dinleyebilir
+                    ihtiyacın olan her an destek talep edebilirsin.
                   </p>
                 </div>
               </li>
@@ -75,29 +69,26 @@ const WorkProcessOne = () => {
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 3</span>
-                  <h3 className="h5 mb-2">Product Prototyping</h3>
+                  <span className="text-primary h6">Adım 3</span>
+                  <h3 className="h5 mb-2">Onay Süreci</h3>
                   <p>
-                    Interactively whiteboard transparent testing procedures
-                    before bricks-and-clicks initiatives administrate
-                    competencies.
+                    Toplantılarda veya görüşmelerde ilettiğin şekilde düzenlenen
+                    siteni sizden onay alarak aktife alırız.
                   </p>
                 </div>
               </li>
               <li className="d-flex align-items-start mb-4 mb-lg-0">
                 <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
                   <i className="far fa-2x">
-                    {' '}
                     <FiTruck />
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 4</span>
-                  <h3 className="h5 mb-2">Deliver the Final Product</h3>
+                  <span className="text-primary h6">Adım 4</span>
+                  <h3 className="h5 mb-2">Kargolarını teslim etme</h3>
                   <p>
-                    Dramatically plagiarize distributed progressive metrics
-                    without error-free globally simplify standardized
-                    alignments.
+                    Yapman gereken tek şey kargolarını alıcıların adreslerine
+                    göndermek. İşte Agesoft'lu olmak bu kadar kolay!
                   </p>
                 </div>
               </li>
