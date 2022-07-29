@@ -1,27 +1,28 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 import {
   FaBezierCurve,
   FaCheckCircle,
   FaCog,
   FaFingerprint,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const FeatureImgContentTwo = ({ bgWhite }) => {
   return (
-    <section className={`feature-section-two ptb-120 ${
-      bgWhite ? 'bg-white' : 'bg-light'
-    } `}>
+    <section
+      className={`feature-section-two ptb-120 ${
+        bgWhite ? "bg-white" : "bg-light"
+      } `}
+    >
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12">
             <div className="section-heading">
               <h4 className="h5 text-primary">Our Values</h4>
-              <h2>The Core Values that Drive Everything</h2>
+              <h2>Tüm Bilgiler Tek Bir Panelde!</h2>
               <p>
-                Quickly incubate functional channels with multidisciplinary
-                architectures. Authoritatively fabricate formulate exceptional
-                innovation.
+                Entegrasyonlar, ürünler, pazaryerleri ve siten hakkında bilmek
+                veya düzenlemek isteyeceğin her şey tek AgeSoft Panelinde!
               </p>
               <ul className="list-unstyled mt-5">
                 <li className="d-flex align-items-start mb-4">
@@ -31,10 +32,14 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="h5">Pixel Perfect Design</h3>
+                    <h3 className="h5">Entegrasyonlar</h3>
                     <p>
-                      Progressively foster enterprise-wide systems whereas
-                      equity invested web-readiness harness installed.
+                      Trendyol, HepsiBurada, Amazon, N11 gibi Türkiye'nin en
+                      büyük pazaryerlerine tam entegreyiz. AgeSoft Yönetim
+                      Paneline yüklediğin veya güncellediğin tüm ürünler gerekli
+                      kurumlarını tamamladığında pazaryerlerinde sergilenmeye
+                      başlar. Aldığın siparişler ise anında AgeSoft yönetim
+                      panelinde yer alır.
                     </p>
                   </div>
                 </li>
@@ -60,11 +65,9 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="h5">Efficiency & Accountability</h3>
+                    <h3 className="h5">Ürünler</h3>
                     <p>
-                      Objectively transition prospective collaboration and
-                      idea-sharing without focused maintain focused niche
-                      markets niches.
+                     Olabildiğince basit bir şekilde ürünlerini yönetebilir, varyant ekleyebilir
                     </p>
                   </div>
                 </li>

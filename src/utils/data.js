@@ -270,45 +270,12 @@ const footerTemplate = [
 ];
 
 //navbar data
-const menuKurumsal = [
-  {
-    title: "Hakkımızda",
-    info: "It's for SaaS Software Company",
-    href: "/",
-  },
-  {
-    title: "Sass Company 2",
-    info: " Modern Sass agency",
-    href: "sass-company-two",
-  },
-  {
-    title: "Desktop App",
-    info: "Web Software Company",
-    href: "desktop-app",
-  },
-
-  {
-    title: "App Landing",
-    info: " App and Software Landing",
-    href: "app-landing",
-  },
-  {
-    title: "Software Application",
-    info: "IT solutions and SaaS Application",
-    href: "software-application",
-  },
-  {
-    title: "Startup Agency",
-    info: "Different type of Agency",
-    href: "startup-agency",
-  },
-];
 
 const navHomeOne = [
   {
     title: "Hakkımızda",
     info: "It's for SaaS Software Company",
-    href: "/",
+    href: "/hakkimizda",
   },
   {
     title: "İnsan Kaynakları",
