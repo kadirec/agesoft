@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const OurStory = () => {
   return (
@@ -14,22 +14,18 @@ const OurStory = () => {
         <div className="row justify-content-between">
           <div className="col-lg-5 col-md-12 order-lg-1">
             <div className="section-heading sticky-sidebar">
-              <h4 className="h5 text-primary">Our Story</h4>
-              <h2>A Great Story Starts with a Friendly Team</h2>
+              <h4 className="h5 text-primary">Kısaca AgeSoft</h4>
+              <h2>Harika bir deneyim, harika bir ekiple başlar</h2>
               <p>
-                Globally e-enable principle-centered e-business before dynamic
-                quality vectors cross-media materials before proactive
-                outsourcing leverage other is vertical technology leadership.{' '}
+                Çalıştığımız firmalarımız bilir ki, ihtiyaçları en yakın
+                güncellemede sisteme dahil edilir, yardım talepleriniz gün
+                içinde cevaplanır ve en önemlisi ihtiyacı olan tek yazılım
+                <strong> AgeSoft Yeni Nesil E-Ticaret Sistemleridir.</strong>
               </p>
-              <div className="mt-4">
-                <h6 className="mb-3">We Are Awarded By-</h6>
-                <img
-                  src="/awards-01.svg"
-                  alt="awards"
-                  className="me-4 img-fluid"
-                />
-                <img src="/awards-02.svg" alt="awards" className="img-fluid" />
-              </div>
+              <p className="mt-4">
+                Siz de bu eşsiz deneyimi ekibimizle yaşamak istiyorsanız hemen
+                bizimle iletişime geçin.
+              </p>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 order-lg-0">
@@ -57,30 +53,28 @@ const OurStory = () => {
 
               <div className="story-grid rounded-custom bg-dark overflow-hidden position-relative">
                 <div className="story-item bg-light border">
-                  <h3 className="display-5 fw-bold mb-1 text-success">550K+</h3>
-                  <h6 className="mb-0">Active Users</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-success">1.2M+</h3>
+                  <h6 className="mb-0">Aktif Kullanıcı</h6>
                 </div>
                 <div className="story-item bg-white border">
-                  <h3 className="display-5 fw-bold mb-1 text-primary">250+</h3>
-                  <h6 className="mb-0">Team Members</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-primary">25+</h3>
+                  <h6 className="mb-0">Harika Ekip Üyesi</h6>
                 </div>
                 <div className="story-item bg-white border">
-                  <h3 className="display-5 fw-bold mb-1 text-dark">$20M+</h3>
-                  <h6 className="mb-0">Revenue Per/Year</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-dark">20M+ ₺</h3>
+                  <h6 className="mb-0">Yıllık Gelir</h6>
                 </div>
                 <div className="story-item bg-light border">
-                  <h3 className="display-5 fw-bold mb-1 text-warning">
-                    8 Years
-                  </h3>
-                  <h6 className="mb-0">In Business</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-warning">8 Yıl</h3>
+                  <h6 className="mb-0">Tecrübe</h6>
                 </div>
                 <div className="story-item bg-light border">
-                  <h3 className="display-5 fw-bold mb-1 text-danger">425+</h3>
-                  <h6 className="mb-0">Clients Worldwide</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-danger">35+</h3>
+                  <h6 className="mb-0">Aktif Tema</h6>
                 </div>
                 <div className="story-item bg-white border">
-                  <h3 className="display-5 fw-bold mb-1 text-primary">855+</h3>
-                  <h6 className="mb-0">Projects Completed</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-primary">110+</h3>
+                  <h6 className="mb-0">Tamamlanan Proje</h6>
                 </div>
               </div>
             </div>
