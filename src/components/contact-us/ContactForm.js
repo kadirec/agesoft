@@ -1,10 +1,11 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const ContactForm = () => {
   return (
     <section
       className="contact-us-form pt-60 pb-120"
+      id="contact-us-form"
       style={{
         background: "url('/shape/contact-us-bg.svg')no-repeat center bottom",
       }}
@@ -13,17 +14,18 @@ const ContactForm = () => {
         <div className="row justify-content-lg-between align-items-center">
           <div className="col-lg-6 col-md-8">
             <div className="section-heading">
-              <h2>Talk to Our Sales & Marketing Department Team</h2>
+              <h2>Hemen ekibimizle tanışın!</h2>
               <p>
-                Collaboratively promote client-focused convergence vis-a-vis
-                customer directed alignments via standardized infrastructures.
+                Satışlarınızı arttırmak ve sizi anlamak için çaba sarfeden
+                ekibimiz daima sizin yanınızda olacak. Tek yapman gereken formu
+                doldurmak.
               </p>
             </div>
             <form action="#" className="register-form">
               <div className="row">
                 <div className="col-sm-6">
                   <label htmlFor="firstName" className="mb-1">
-                    First name <span className="text-danger">*</span>
+                    Adınız: <span className="text-danger">*</span>
                   </label>
                   <div className="input-group mb-3">
                     <input
@@ -31,43 +33,43 @@ const ContactForm = () => {
                       className="form-control"
                       id="firstName"
                       required
-                      placeholder="First name"
-                      aria-label="First name"
+                      placeholder="Adınız"
+                      aria-label="Adınız"
                     />
                   </div>
                 </div>
                 <div className="col-sm-6 ">
                   <label htmlFor="lastName" className="mb-1">
-                    Last name
+                    Soyadınız <span className="text-danger">*</span>
                   </label>
                   <div className="input-group mb-3">
                     <input
                       type="text"
                       className="form-control"
                       id="lastName"
-                      placeholder="Last name"
-                      aria-label="Last name"
+                      placeholder="Soyadınız"
+                      aria-label="Soyadınız"
                     />
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <label htmlFor="phone" className="mb-1">
-                    Phone <span className="text-danger">*</span>
+                    Telefon Numaranız<span className="text-danger">*</span>
                   </label>
                   <div className="input-group mb-3">
                     <input
-                      type="text"
-                      className="form-control"
+                      type="number"
+                      className="form-control no-arrow"
                       id="phone"
                       required
-                      placeholder="Phone"
-                      aria-label="Phone"
+                      placeholder="Telefon Numaranız"
+                      aria-label="Telefon Numaranız"
                     />
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <label htmlFor="email" className="mb-1">
-                    Email<span className="text-danger">*</span>
+                    E-Posta Adresiniz<span className="text-danger">*</span>
                   </label>
                   <div className="input-group mb-3">
                     <input
@@ -80,23 +82,39 @@ const ContactForm = () => {
                     />
                   </div>
                 </div>
-                <div className="col-12">
-                  <label htmlFor="yourMessage" className="mb-1">
-                    Message <span className="text-danger">*</span>
+                <div className="col-sm-6">
+                  <label htmlFor="companyName" className="mb-1">
+                    Firma Adınız<span className="text-danger">*</span>
                   </label>
                   <div className="input-group mb-3">
-                    <textarea
+                    <input
+                      type="text"
                       className="form-control"
-                      id="yourMessage"
+                      id="companyName"
                       required
-                      placeholder="How can we help you?"
-                      style={{ height: '120px' }}
-                    ></textarea>
+                      placeholder="Firma Adınız"
+                      aria-label="Firma Adınız"
+                    />
+                  </div>
+                </div>
+                <div className="col-sm-6">
+                  <label htmlFor="companySite" className="mb-1">
+                    E-Ticaret Siteniz
+                  </label>
+                  <div className="input-group mb-3">
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="companySite"
+                      required
+                      placeholder="E-Ticaret Siteniz"
+                      aria-label="E-Ticaret Siteniz"
+                    />
                   </div>
                 </div>
               </div>
               <button type="submit" className="btn btn-primary mt-4">
-                Get in Touch
+                İletişime Geç
               </button>
             </form>
           </div>

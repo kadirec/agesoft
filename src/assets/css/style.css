@@ -5001,3 +5001,15 @@ li.setup-process-item:not(:last-child):before {
 .fs-10{
   font-size: 12px
 }
+
+.no-arrow {
+  -moz-appearance: textfield;
+}
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

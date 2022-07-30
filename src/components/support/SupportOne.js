@@ -35,12 +35,14 @@ const SupportOne = ({ className }) => {
                     14 günlük tamamen ücretsiz deneme süresi sunuyoruz.
                   </p>
                 </div>
-                <div className="form-block-banner mw-60 m-auto mt-5">
-                  <Link href="/contact-us">
-                    <a className="btn btn-primary">Bizimle İletişime Geç</a>
+                <div className="form-block-banner mw-60 m-auto mt-5 d-flex gap-3 justify-content-center align-center">
+                  <Link href="/contact-us#contact-us-form">
+                    <a className="btn btn-primary">Formunu doldur</a>
                   </Link>
 
-                  <VideoModal className="true" />
+                  <Link href="/contact-us">
+                    <a className="btn btn-secondary">İletişime Geç</a>
+                  </Link>
                 </div>
                 <ul className="nav justify-content-center subscribe-feature-list mt-4">
                   <li className="nav-item">
