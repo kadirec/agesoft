@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@layout/Layout";
 import Navbar from "@layout/Header/Navbar";
-import Footer from "@layout/Footer/Footer";
+import FooterTwo from "@layout/Footer/FooterTwo";
 import OurTeam from "@components/our-team/OurTeam";
 import OurStory from "@components/our-story/OurStory";
 import OurOffice from "@components/our-office/OurOffice";
@@ -20,7 +20,7 @@ const AboutUs = () => {
       <TestimonialTwo />
       <OurOffice />
       <SupportOne className="true" />
-      <Footer footerLight />
+      <FooterTwo />
     </Layout>
   );
 };

@@ -1,24 +1,24 @@
-import React from 'react';
-import Link from 'next/link';
-import { FaRegCheckCircle } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import { FaRegCheckCircle } from "react-icons/fa";
 
-import VideoModal from '../common/VideoModal';
+import VideoModal from "../common/VideoModal";
 
 const SupportOne = ({ className }) => {
   return (
     <section
       className={`${
         className
-          ? 'cta-subscribe bg-dark ptb-120 position-relative overflow-hidden'
-          : 'cta-subscribe pt-60 pb-120'
+          ? "cta-subscribe bg-dark ptb-120 position-relative overflow-hidden"
+          : "cta-subscribe pt-60 pb-120"
       }`}
     >
       <div className="container">
         <div
           className={`${
             className
-              ? ''
-              : 'bg-gradient ptb-120 px-4 position-relative overflow-hidden rounded-custom'
+              ? ""
+              : "bg-gradient ptb-120 px-4 position-relative overflow-hidden rounded-custom"
           }`}
         >
           <div className="row justify-content-center">
@@ -26,17 +26,18 @@ const SupportOne = ({ className }) => {
               <div className="subscribe-info-wrap text-center position-relative z-2">
                 <div className="section-heading">
                   <h4 className="h5 text-warning">
-                    Let&apos;s Try! Get Free Support
+                    {" "}
+                    Ücretsiz denemeni aktif et!
                   </h4>
-                  <h2>Start Your 14-Day Free Trial</h2>
+                  <h2>Hemen Yeni Nesil E-Ticarete Başla.</h2>
                   <p>
-                    We can help you to create your dream website for better
-                    business revenue.
+                    Agesoft Yenil Nesil E-Ticaret sistemlerini test etmen için
+                    14 günlük tamamen ücretsiz deneme süresi sunuyoruz.
                   </p>
                 </div>
                 <div className="form-block-banner mw-60 m-auto mt-5">
                   <Link href="/contact-us">
-                    <a className="btn btn-primary">Contact with Us</a>
+                    <a className="btn btn-primary">Bizimle İletişime Geç</a>
                   </Link>
 
                   <VideoModal className="true" />
@@ -45,25 +46,25 @@ const SupportOne = ({ className }) => {
                   <li className="nav-item">
                     <span>
                       <FaRegCheckCircle className="far me-2 text-primary" />
-                      Free 14-day trial
+                      Tamemen Ücretsiz
                     </span>
                   </li>
                   <li className="nav-item">
                     <span>
                       <FaRegCheckCircle className="far me-2 text-primary" />
-                      No credit card required
+                      Tüm Erişim
                     </span>
                   </li>
                   <li className="nav-item">
                     <span>
                       <FaRegCheckCircle className="far me-2 text-primary" />
-                      Support 24/7
+                      Canlı Destek
                     </span>
                   </li>
                   <li className="nav-item">
                     <span>
                       <FaRegCheckCircle className="far me-2 text-primary" />
-                      Cancel anytime
+                      İstediğin zaman iptal
                     </span>
                   </li>
                 </ul>
