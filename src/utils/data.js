@@ -280,7 +280,7 @@ const navHomeOne = [
   {
     title: "İnsan Kaynakları",
     info: " Modern Sass agency",
-    href: "sass-company-two",
+    href: "insan-kaynaklari",
   },
   {
     title: "Ödeme Merkezi",
@@ -922,54 +922,50 @@ const blogFeatureData = [
 //career data
 const careerJobCard = [
   {
-    type: "Remote - Full Time",
+    type: "Tam Zamanlı",
     position: "Developer",
     title: "Jr Frontend Developer",
     className: "bg-primary-soft text-primary",
+    link: "https://linkedin.com/company/age-soft/jobs/",
     listItem: [
       {
-        media: "Google",
-        location: "London, UK",
-        salary: "$35-$45k",
+        location: "Karşıyaka / İzmir",
       },
     ],
   },
   {
-    type: "Remote - Full Time",
+    type: "Tam Zamanlı Tam Zamanlı",
     position: "Designer",
-    title: "UI/UX and Product Designer",
+    title: "UI/UX Designer",
     className: "bg-danger-soft text-danger",
+    link: "https://linkedin.com/company/age-soft/jobs/",
     listItem: [
       {
-        media: "Figma",
-        location: "San Francissco",
-        salary: "$25-$35k",
+        location: "Karşıyaka / İzmir",
       },
     ],
   },
   {
-    type: "Full Time",
+    type: "Tam Zamanlı",
     position: "Manager",
-    title: "Senior Office Manager",
+    title: "Müşteri Temsilcisi",
+    link: "https://linkedin.com/company/age-soft/jobs/",
     className: "bg-success-soft text-success",
     listItem: [
       {
-        media: "Dribble",
-        location: "California",
-        salary: "$55-$65k",
+        location: "Karşıyaka / İzmir",
       },
     ],
   },
   {
-    type: "Remote",
+    type: "Tam Zamanlı ",
     position: "Developer",
-    title: "Senior Backend Developer",
+    title: "Ads Manager",
+    link: "https://linkedin.com/company/age-soft/jobs/",
 
     listItem: [
       {
-        media: "Slack",
-        location: "United State US",
-        salary: "$55-$62k",
+        location: "Karşıyaka / İzmir",
       },
     ],
   },
