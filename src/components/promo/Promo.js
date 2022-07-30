@@ -1,25 +1,23 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import { FaFingerprint, FaRegPaperPlane } from 'react-icons/fa';
-import { FiPieChart } from 'react-icons/fi';
-import SectionTitle from '../common/SectionTitle';
+import React from "react";
+import { FaFingerprint, FaRegPaperPlane } from "react-icons/fa";
+import { FiPieChart } from "react-icons/fi";
+import SectionTitle from "../common/SectionTitle";
 
 const Promo = ({ bgWhite }) => {
   return (
     <>
       <section
         className={`promo-section ptb-120 ${
-          bgWhite ? 'bg-white' : 'bg-light'
+          bgWhite ? "bg-white" : "bg-light"
         } `}
       >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-6">
               <SectionTitle
-                title="Our Customers Get Results"
-                description="Progressively deploy market positioning catalysts for change
-                  and technically sound. Authoritatively with
-                  backward-compatible e-services."
+                title="Değişiminizi kolayca yapın"
+                description="E-Ticaret sağlayıcı arasında bir yıldız gibi parlayan Agesoft ile gelişiminizi hızlıca gerçekleştirin."
                 centerAlign
               />
             </div>
@@ -35,12 +33,13 @@ const Promo = ({ bgWhite }) => {
                   <h3 className="display-5 fw-bold mb-4 text-white">
                     <i className="far text-warning me-2">
                       <FaFingerprint className="mb-3" />
-                    </i>{' '}
+                    </i>
                     10x
                   </h3>
                   <p className="text-white">
-                    Embrace distinctive best practices after B2B syndicate
-                    backend internal or whereas edge process improvements.{' '}
+                    Kullanıcı yetkileri ve sınırsız kullanıcı açma özelliği
+                    sayesinde şirketimdeki tüm çalışma arkadaşlarımız için
+                    üstlendiği farklı rollerle üyelik açabiliyoruz.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -63,12 +62,14 @@ const Promo = ({ bgWhite }) => {
                   <h3 className="display-5 fw-bold mb-4 text-white">
                     <i className="far text-warning me-2">
                       <FaRegPaperPlane className="mb-3" />
-                    </i>{' '}
+                    </i>
                     5k
                   </h3>
                   <p className="text-white">
-                    Rapidiously embrace distinctive best practices B2B syndicate
-                    backend internal or whereas process improvements.{' '}
+                    İletişim formlarının Agesoft panelinde görülmesiyle birlikte
+                    müşterilerimizin mesajlarını kolayca yönetebiliyoruz. Aylık
+                    beş bine yakın iletişim formu talebiyle karşı karşıya
+                    kaldık.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -95,8 +96,10 @@ const Promo = ({ bgWhite }) => {
                     95%
                   </h3>
                   <p className="text-white">
-                    Distinctive best practices after B2B syndicate internal or
-                    whereas bleeding-edge process improvements.{' '}
+                    Farklı e-ticaret altyapıları kullanmama rağmen en iyi
+                    istatistik modülü Agesoft Yeni Nesil E-Ticaret
+                    Sistemlerinde. İstediğimiz tüm verileri tek bir yerde
+                    görebilmek müthiş kolaylık!
                   </p>
                 </div>
                 <div className="mt-auto">

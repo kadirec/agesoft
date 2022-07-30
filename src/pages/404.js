@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const NotFoundPage = () => {
   return (
@@ -16,15 +16,15 @@ const NotFoundPage = () => {
             <div className="col-lg-5 col-md-6">
               <div className="error-page-content-wrap">
                 <h2 className="error-404 text-warning">404</h2>
-                <h1 className="display-5 fw-bold">Page Not Found</h1>
+                <h1 className="display-5 fw-bold">
+                  Sayfa bulunamadı veya sayfa gitmek için yetkili değilsiniz
+                </h1>
                 <p className="lead">
-                  Efficiently reinvent next-generation scenarios without focused
-                  networks. Collaboratively productize superior technology
-                  before robust potentialities.{' '}
+                  Bir problem olduğunu düşünüyorsanız bizimle iletişime geçin!
                 </p>
 
                 <Link href="/">
-                  <a className="btn btn-primary mt-4">Go Back Home</a>
+                  <a className="btn btn-primary mt-4">Anasayfaya Git</a>
                 </Link>
               </div>
             </div>

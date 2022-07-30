@@ -1,5 +1,5 @@
 import Layout from "@layout/Layout";
-import FaqOne from "@components/faq/FaqOne";
+import FaqFour from "@components/faq/FaqFour";
 import Navbar from "@layout/Header/Navbar";
 import Footer from "@layout/Footer/Footer";
 import PriceTwo from "@components/pricing/PriceTwo";
@@ -23,7 +23,7 @@ export default function Home() {
       <TestimonialOne darkBg />
       <WorkProcessOne />
       <PriceTwo header="true" />
-      <FaqOne />
+      <FaqFour />
       <IntegrationOne />
       <QuickSupport />
       <Footer footerGradient />

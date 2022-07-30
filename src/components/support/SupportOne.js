@@ -2,8 +2,6 @@ import React from "react";
 import Link from "next/link";
 import { FaRegCheckCircle } from "react-icons/fa";
 
-import VideoModal from "../common/VideoModal";
-
 const SupportOne = ({ className }) => {
   return (
     <section
@@ -26,7 +24,6 @@ const SupportOne = ({ className }) => {
               <div className="subscribe-info-wrap text-center position-relative z-2">
                 <div className="section-heading">
                   <h4 className="h5 text-warning">
-                    {" "}
                     Ücretsiz denemeni aktif et!
                   </h4>
                   <h2>Hemen Yeni Nesil E-Ticarete Başla.</h2>
