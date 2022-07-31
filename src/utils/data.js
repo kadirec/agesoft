@@ -274,24 +274,24 @@ const footerTemplate = [
 const navHomeOne = [
   {
     title: "Hakkımızda",
-    info: "It's for SaaS Software Company",
+    info: "Kısaca biz",
     href: "/hakkimizda",
   },
   {
     title: "İnsan Kaynakları",
-    info: " Modern Sass agency",
-    href: "insan-kaynaklari",
+    info: "Agesoft ailesine katılmaya ne dersin?",
+    href: "/insan-kaynaklari",
   },
   {
     title: "Ödeme Merkezi",
-    info: "Web Software Company",
-    href: "desktop-app",
+    info: "Agesoft ödemelerini kolayca yapabilmen için",
+    href: "/odeme-merkezi",
   },
 
   {
     title: "Sıkça Sorulan Sorular",
-    info: " App and Software Landing",
-    href: "app-landing",
+    info: "Hakkımızda sıkça sorulan sorular",
+    href: "/sikca-sorulan-sorular",
   },
 ];
 

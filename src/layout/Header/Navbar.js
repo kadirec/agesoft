@@ -4,12 +4,7 @@ import Link from "next/link";
 import { HiMenu, HiOutlineX } from "react-icons/hi";
 
 import OffCanvasMenu from "./OffCanvasMenu";
-import {
-  navHomeOne,
-  navHomeTwo,
-  navCompanyLinks,
-  navCompanyPage,
-} from "../../utils/data";
+import { navHomeOne, navCompanyLinks, navCompanyPage } from "../../utils/data";
 import dynamic from "next/dynamic";
 
 const Navbar = ({ navDark }) => {
@@ -28,8 +23,6 @@ const Navbar = ({ navDark }) => {
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
-
-  const [open, setOpen] = React.useState(false);
 
   return (
     <header
@@ -91,7 +84,7 @@ const Navbar = ({ navDark }) => {
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-half">
                     <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Different Home</h6>
+                      <h6 className="drop-heading">Kurumsal</h6>
                       {navHomeOne.map((navH, i) => (
                         <span key={i + 1}>
                           <Link href={navH.href}>
