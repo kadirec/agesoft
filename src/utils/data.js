@@ -1,4 +1,3 @@
-import { TiContacts } from "react-icons/ti";
 import {
   BiServer,
   BiNews,
@@ -7,12 +6,17 @@ import {
   BiPaperPlane,
   BiHelpCircle,
   BiLogIn,
-  BiUser,
-  BiError,
+  BiAtom,
+  BiBarcode,
+  BiStore,
+  BiCreditCardFront,
+  BiCube,
+  BiCodeBlock,
+  BiBookmarkAlt,
 } from "react-icons/bi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { BsHeadset } from "react-icons/bs";
-import { FaLaptopCode, FaRegClock, FaRegTrashAlt } from "react-icons/fa";
+import { FaLaptopCode, FaRegClock } from "react-icons/fa";
 
 const IconBoxData = [
   {
@@ -295,6 +299,48 @@ const navHomeOne = [
   },
 ];
 
+const navYazilimOzellikleriLeft = [
+  {
+    title: "E-Ticaret Sistem Özellikleri",
+    href: "/e-ticaret-sistem-ozellikleri",
+    icon: <BiAtom />,
+  },
+  {
+    title: "Pazaryerleri Entegrasyon Paneli",
+    href: "/pazaryerleri-entegrasyon-paneli",
+    icon: <BiStore />,
+  },
+  {
+    title: "Muhasebe Entegrasyonları",
+    href: "/muhasebe-entegrasyonlari",
+    icon: <BiBarcode />,
+  },
+
+  {
+    title: "Ödeme Entegrasyonları",
+    href: "/odeme-entegrasyonlari",
+    icon: <BiCreditCardFront />,
+  },
+];
+
+const navYazilimOzellikleriRight = [
+  {
+    title: "Kargo Entegrasyonları",
+    href: "/kargo-entegrasyonlari",
+    icon: <BiCube />,
+  },
+  {
+    title: "XML Entegrasyonları",
+    href: "/xml-entegrasyonlari",
+    icon: <BiCodeBlock />,
+  },
+  {
+    title: "E-Fatura Entegrasyonları",
+    href: "e-fatura-entegrasyonlari",
+    icon: <BiBookmarkAlt />,
+  },
+];
+
 const navHomeTwo = [
   {
     title: "Data Analysis",
@@ -450,7 +496,7 @@ const navCompanyPage = [
   {
     title: "Age Akademi Eğitim Videoları",
     icon: <FaLaptopCode />,
-    href: "request-demo",
+    href: "age-akademi-videolu-egitimler",
   },
 
   {
@@ -462,7 +508,7 @@ const navCompanyPage = [
   {
     title: "İletişim",
     icon: <FaRegClock />,
-    href: "coming-soon",
+    href: "iletisim",
   },
 ];
 
@@ -1651,4 +1697,6 @@ export {
   careerJobCard,
   helpCenterFaqDetails,
   brandName,
+  navYazilimOzellikleriLeft,
+  navYazilimOzellikleriRight,
 };
